@@ -39,7 +39,7 @@
                 <label class="col-md-4 control-label" for="available_quantity">Chọn hình ảnh</label>
                 <div class="col-md-4">
                     <input id="image" name="image" value="{{asset($product->image)}}" placeholder=""
-                           class="form-control input-md" required="" type="file">
+                           class="form-control input-md" type="file">
                     <img width="100px" src="{{asset('storage/'.$product->image)}}" alt="">
                 </div>
             </div>
