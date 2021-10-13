@@ -17,7 +17,7 @@
                 <label class="col-md-4 control-label" for="product_name">Tên sản phẩm</label>
                 <div class="col-md-4">
                     <input id="product_name" value="{{$product->name}}" name="name" placeholder=""
-                           class="form-control input-md @error('name') is-valid @enderror" required="" type="text">
+                           class="form-control input-md @error('name') is-valid @enderror" type="text">
                     @error('name')
                     <p class="text-danger">{{ $message }}</p>
                     @enderror
@@ -29,7 +29,7 @@
                 <label class="col-md-4 control-label" for="price">Giá</label>
                 <div class="col-md-4">
                     <input id="price" value="{{$product->price}}" name="price" placeholder=""
-                           class="form-control input-md @error('price') is-valid @enderror" required="" type="text">
+                           class="form-control input-md @error('price') is-valid @enderror" type="text">
                     @error('price')
                     <p class="text-danger">{{ $message }}</p>
                     @enderror
